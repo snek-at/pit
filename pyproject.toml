@@ -1,0 +1,19 @@
+[project]
+name = "SNEK-PIT"
+description = "Hissss."
+readme = "README.md"
+license = { text = "EUPL-1.2" }
+authors = [{name = "Florian Kleber", email = "kleber@snek.at"},]
+maintainers = [{name = "Florian Kleber", email = "kleber@snek.at"},]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: EUPL License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+dynamic = ["version"]
+requires-python = ">=3.7"
+dependencies = ["duckdb>=0.6.1", "SQLAlchemy>=1.4.18"]
