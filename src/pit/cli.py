@@ -21,9 +21,6 @@ def cli():
     # Create an instance of the argparse.ArgumentParser class
     parser = argparse.ArgumentParser()
 
-    # Create an instance of the argparse.ArgumentParser class
-    parser = argparse.ArgumentParser()
-
     # Add the subcommands to the parser
     commands_group = parser.add_subparsers(dest='command')
     dump_parser = commands_group.add_parser('dump')
